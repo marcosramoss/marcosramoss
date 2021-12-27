@@ -1,0 +1,21 @@
+.font-1-xxl {
+font: 800 4.5rem/4rem "Poppins", sans-serif;
+}
+.font-1-xl {
+  font: 600 3rem/1.3 "Poppins", sans-serif;
+}
+.font-1-l {
+  font: 400 2.5rem/1.5 "Poppins", sans-serif;
+}
+.font-1-sl {
+  font: 600 1.7rem/1.5 "Poppins", sans-serif;
+}
+.font-1-m {
+  font: 600 1.5rem/1.5 "Poppins", sans-serif;
+}
+.font-1-s {
+  font: 600 1.125rem/1.5 "Poppins", sans-serif;
+}
+.font-2-s {
+  font: 400 1.125rem/1.5 "Fira sans", sans-serif;
+}

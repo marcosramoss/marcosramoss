@@ -1,0 +1,9 @@
+:root {
+  --cor-texto: #00004D;
+  --cor-icone: #012A5E;
+  --cor-branco: #ffffff;
+  --sombra: box-shadow: 0px 4px 20px rgba(0, 0, 77, 0.1);
+}
+.cor-texto {
+  color: var(--cor-texto);
+}

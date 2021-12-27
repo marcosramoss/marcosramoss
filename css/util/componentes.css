@@ -1,0 +1,48 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.botao {
+  padding: 15px 20px;
+  background: #012A5E;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 500 1rem/1.5 "Fira sans", sans-serif;
+  border-radius: 10px;
+  display: inline-block;
+  place-self: start;
+}
+.botao:hover {
+  background: #004E92;
+}
+.link {
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 600 1rem/1 "Poppins", sans-serif;
+  color: #00004D;
+  position: relative;
+}
+.link:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background: #00004D;
+  transition: 0.3s;
+}
+.link:hover::after {
+  width: 100%;
+}
+.titulo {
+  font: 600 2.5rem/2.5 "Poppins", sans-serif;
+  color: #00004D;
+}

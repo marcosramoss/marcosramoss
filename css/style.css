@@ -1,0 +1,20 @@
+/* Global */
+@import url('./global/global.css');
+/* Header */
+@import url('./global/header.css');
+/* Footer */
+@import url('./global/footer.css');
+/* Componentes */
+@import url('./util/componentes.css');
+/* Tipografia */
+@import url('./util/tipografia.css');
+/* Cores */
+@import url('./util/cores.css');
+/* home */
+@import url('./home/introducao.css');
+@import url('./home/habilidades.css');
+@import url('./home/formacao.css');
+/* Experiencia */
+@import url('./experiencia/experiencia.css');
+/* Formacao */
+@import url('./formacao/formacao.css');
