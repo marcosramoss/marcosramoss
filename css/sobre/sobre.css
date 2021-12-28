@@ -24,6 +24,9 @@
   }
 }
 @media (max-width: 425px) {
+  .sobre-titulo {
+    justify-content: center;
+  }
   .sobre-conteudo {
     gap: 60px;
   }
