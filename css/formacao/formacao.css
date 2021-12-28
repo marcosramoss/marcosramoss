@@ -1,10 +1,11 @@
-.formacao-container {
+.formacao-titulo {
   display: flex;
   align-items: flex-end;
   gap: 16px;
+  margin-bottom: 60px;
 }
-.formacao-container h2 {
-  line-height: 2.5rem;
+.formacao-titulo h2 {
+  line-height: 2rem;
 }
 .formacao-conteudo {
   display: grid;
@@ -27,7 +28,6 @@
   margin-bottom: 16px;
 }
 .curso-ui {
-  width: 530px;
   border-radius: 10px;
   box-shadow: 0px 4px 20px rgba(0, 0, 77, 0.1);
   padding: 16px 20px;
@@ -70,7 +70,7 @@
   #formacao header {
     padding-bottom: 0px;
   }
-  .formacao-container {
+  .formacao-titulo {
     justify-content: center;
   }
   .formacao h2 {

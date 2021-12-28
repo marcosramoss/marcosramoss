@@ -4,7 +4,7 @@
   gap: 16px;
 }
 .sobre-titulo h2 {
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 .sobre-conteudo {
   display: flex;
@@ -29,6 +29,9 @@
   }
   .sobre-conteudo {
     gap: 60px;
+  }
+  .sobre-titulo h2 {
+    font-size: 2rem;
   }
   .sobre-conteudo h3 {
     font-size: 1.7rem;
