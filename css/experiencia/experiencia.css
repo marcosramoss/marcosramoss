@@ -1,3 +1,11 @@
+.experiencia-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+.experiencia-container h2 {
+  line-height: 2.5rem;
+}
 .experiencia-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14,6 +22,7 @@
   margin-bottom: 60px;
 }
 @media (max-width: 1090px) {
+
 .experiencia-conteudo {
   grid-template-columns: 1fr;
 }
@@ -38,6 +47,9 @@
  #experiencia header {
     padding-bottom: 0px;
   }
+  .experiencia-container{
+    justify-content: center;
+    }
 .chapa-img img{
     width: 310px;
     height: 195px;

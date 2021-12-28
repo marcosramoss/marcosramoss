@@ -1,11 +1,16 @@
+.formacao-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+.formacao-container h2 {
+  line-height: 2.5rem;
+}
 .formacao-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
-}
-.formacao h2 {
-  margin-bottom: 32px;
 }
 .superior h3 {
   margin-top: 8px;
@@ -64,6 +69,9 @@
 @media (max-width: 600px) {
   #formacao header {
     padding-bottom: 0px;
+  }
+  .formacao-container {
+    justify-content: center;
   }
   .formacao h2 {
     font-size: 2rem;

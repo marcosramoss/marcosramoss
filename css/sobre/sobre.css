@@ -1,0 +1,33 @@
+.sobre-titulo {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+.sobre-titulo h2 {
+  line-height: 2.5rem;
+}
+.sobre-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.sobre-conteudo img {
+  max-width: 200px;
+}
+.sobre-conteudo p {
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .sobre-conteudo h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 425px) {
+  .sobre-conteudo {
+    gap: 60px;
+  }
+  .sobre-conteudo h3 {
+    font-size: 1.7rem;
+  }
+}
