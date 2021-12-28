@@ -2,6 +2,7 @@
   display: flex;
   align-items: flex-end;
   gap: 16px;
+  margin-bottom: 60px;
 }
 .sobre-titulo h2 {
   line-height: 2rem;
@@ -24,6 +25,9 @@
   }
 }
 @media (max-width: 425px) {
+  #sobre header{
+    padding-bottom: 0px;
+  }
   .sobre-titulo {
     justify-content: center;
   }
