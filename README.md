@@ -2,9 +2,7 @@
 
 
 <p>
-Desde de pequeno eu sempre gostei de tecnologia, aquelas interfaces lindas nos jogos e nos sites.
-Curioso, agora estou estudando e me dedicando a criar meus próprios projetos, e estou me divertindo muito com isso.
-Espero ajudar algém resolvendo um problema algum dia, pois eu descobri o quão poderoso é aprender programar.
+Desde pequeno eu sempre gostei de tecnologia, aquelas interfaces lindas nos jogos e nos sites. Curioso, agora estou estudando e me dedicando a criar meus próprios projetos e ilustrações, e estou me divertindo muito com isso. Espero ajudar alguém a resolver um problema algum dia, pois eu descobri o quão poderoso é aprender programar.
 </p>
 
 ##
