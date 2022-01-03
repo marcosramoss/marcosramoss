@@ -18,6 +18,7 @@
 }
 .sobre-conteudo p {
   text-align: center;
+  font-family: "ibm plex mono";
 }
 @media (max-width: 800px) {
   .sobre-conteudo h3 {
