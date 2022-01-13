@@ -26,30 +26,30 @@
     width: 460px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .introducao h1 {
     font-size: 3rem;
   }
   .introducao p {
     font-size: 1rem;
   }
-}
-@media (max-width: 800px) {
   .introducao {
     padding-bottom: 0px;
     grid-template-columns: 1fr;
   }
   .introducao img {
     place-self: center;
-    width: 460px;
+    width: 440px;
   }
   .introducao h1,
   .introducao p {
     text-align: center;
-}
+  }
   .introducao a {
     display: none;
   }
+}
+@media (max-width: 800px) {
 }
 @media (max-width: 600px) {
   .introducao h1 {

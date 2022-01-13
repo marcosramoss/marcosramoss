@@ -62,7 +62,7 @@
   border-radius: 5px;
   font-family: "IBM plex mono";
 }
-@media (max-width: 1030px) {
+@media (max-width: 1024px) {
   .formacao h2 {
     text-align: center;
   }
