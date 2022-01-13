@@ -10,14 +10,7 @@ Desde pequeno eu sempre gostei de tecnologia, aquelas interfaces lindas nos jogo
 - Atualmente estudoando HTML, CSS, JavaScript e UI Design.
 - Habilidades extras: Arquitetura de computadores, Linux e wordpress.
 - pronomes: ele/dele.
-
-<div>
-  <a href="https://marcos-ramos-dev.github.io">
-  <img heght="180em" src="https://github-readme-stats.vercel.app/api?username=marcosramoss&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img heght="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcosramoss&layout=compact&langs_count=16&theme=tokyonight"/>
-</div>
-
-  ##
+##
   
   <div>
     <img align="center" alt="Marcos-Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
