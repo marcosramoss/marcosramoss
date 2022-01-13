@@ -35,12 +35,14 @@
   display: block;
   position: absolute;
   height: 2px;
-  width: 0%;
+  width: 100%;
   background: #00004D;
-  transition: 0.3s;
+}
+.link:hover {
+  color: #1E64B0;
 }
 .link:hover::after {
-  width: 100%;
+  background: #1E64B0
 }
 .titulo {
   font: 600 2.5rem/2.5 "Poppins", sans-serif;
