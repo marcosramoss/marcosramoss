@@ -29,28 +29,21 @@
 .curso-conteudo {
   border-radius: 10px;
   box-shadow: 0px 4px 20px rgba(0, 0, 77, 0.1);
-  padding: 16px 20px;
   margin-bottom: 20px;
+}
+.concluido {
+  background: #fff;
+  padding: 8px 20px;
+  border-radius: 5px 5px 0 0;
 }
 .curso-conteudo a {
   display: inline-block;
-  border-radius: 10px;
-  padding: 6px 12px;
-  margin-bottom: 20px;
-  position: relative;
-}
-.curso-conteudo a::before {
-  content: '';
-  display: block;
-  width: 10px;
-  height: 10px;
-  background: linear-gradient(0deg, #894DEB -10.35%, #C269FE 114.34%);
-  border-radius: 2px;
-  position: absolute;
-  top: 14px;
-  left: -8px;
+  background: url('/img/icons/ok.svg') no-repeat 0px ;
+  padding-left: 28px;
+  text-transform: uppercase;
 }
 .cursos-info {
+  padding: 16px 20px;
   list-style: none;
   display: flex;
   gap: 15px;
@@ -103,4 +96,13 @@
     width: 300px;
     height: 300px;
   }
+}
+@media (max-width: 400px) {
+.curso-conteudo a {
+  font-size: 1rem;
+}
+.formacao-conteudo img {
+  width: 250px;
+    height: 250px;
+}
 }
