@@ -96,3 +96,26 @@ width: 300px;
 height: 194px;
 }
 }
+@media (max-width: 280px) {
+.chapa-img img{
+width: 220px;
+height: 134px;
+}
+.maneu-img img {
+width: 220px;
+height: 134px;
+}
+.bikcraft-img img {
+width: 220px;
+height: 134px;
+}
+.experiencia-conteudo span {
+  font-size: 0.8rem;
+}
+.experiencia-conteudo p {
+  font-size: 0.875rem;
+  }
+  .experiencia-conteudo a {
+    font-size: 0.7rem;
+  }
+}

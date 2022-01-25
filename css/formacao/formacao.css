@@ -102,7 +102,14 @@
   font-size: 1rem;
 }
 .formacao-conteudo img {
-  width: 250px;
-    height: 250px;
+  width: 350px;
+    height: 350px;
 }
+}
+@media (max-width: 280px) {
+ 
+  .formacao-conteudo img {
+    width: 250px;
+    height: 250px;
+  }
 }

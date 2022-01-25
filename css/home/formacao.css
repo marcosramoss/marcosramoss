@@ -70,6 +70,15 @@ font-weight: bold;
 font-size: 1rem;
 }
 .home-formacao-conteudo img {
-width: 320px;
+width: 350px;
 }
+}
+@media (max-width: 280px) {
+  .home-formacao h2 {
+    font-size: 1.5rem;
+  }
+  .home-formacao-conteudo img  {
+    width: 250px;
+    height: 250px;
+  }
 }
