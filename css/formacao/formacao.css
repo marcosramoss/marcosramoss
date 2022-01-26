@@ -18,7 +18,7 @@
   margin-bottom: 16px;
 }
 .superior-conteudo{
-  box-shadow: 0px 4px 20px rgba(0, 0, 77, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 40px 20px;
   margin-bottom: 40px;
@@ -28,7 +28,7 @@
 }
 .curso-conteudo {
   border-radius: 10px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 77, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 .concluido {
@@ -102,12 +102,11 @@
   font-size: 1rem;
 }
 .formacao-conteudo img {
-  width: 350px;
-    height: 350px;
+  width: 330px;
+    height: 330px;
 }
 }
-@media (max-width: 280px) {
- 
+@media (max-width: 340px) {
   .formacao-conteudo img {
     width: 250px;
     height: 250px;
