@@ -72,11 +72,30 @@
   .habilidades h2 {
     font-size: 2rem;
   }
+  .habilidades {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .cards::-webkit-scrollbar{
+    width: 0px;
+  }
+  .cards {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 40px;
+  }
+  .card {
+    min-width: 260px;
+  }
   .card p {
     font-size: 1rem;
   }
   .card {
-    width: 500px;
+    width: 300px;
+  }
+  .card p {
+    width: 20ch;
+    font-size: 1rem;
   }
 }
 @media (max-width: 600px) {
@@ -91,13 +110,7 @@
   .habilidades h2 {
     text-align: center;
   }
-  .card {
-    width: 300px;
-  }
-  .card p {
-    width: 20ch;
-    font-size: 1rem;
-  }
+  
 }
 @media (max-width: 280px) {
   .habilidades h2 {
