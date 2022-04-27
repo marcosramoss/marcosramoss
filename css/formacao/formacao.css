@@ -34,13 +34,14 @@
 .concluido {
   background: #fff;
   padding: 8px 20px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
 }
 .curso-conteudo a {
   display: inline-block;
   background: url('/img/icons/ok.svg') no-repeat 0px ;
   padding-left: 28px;
   text-transform: uppercase;
+  transition: 0.2s ease-in-out;
 }
 .cursos-info {
   padding: 16px 20px;
@@ -110,5 +111,34 @@
   .formacao-conteudo img {
     width: 250px;
     height: 250px;
+  }
+}
+.js-concluido {
+  cursor: pointer;
+}
+.js-concluido::after {
+  content:'▼';
+  margin-left: 10px;
+}
+.js-concluido.active::after{
+  content:'✖';
+  margin-left: 10px;
+}
+.js-cursoInfo {
+  display: none;
+}
+.js-cursoInfo.active {
+  display: flex;
+  animation: slide 1s forwards;
+}
+
+@keyframes slide {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+    
   }
 }
