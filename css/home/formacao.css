@@ -22,6 +22,8 @@ left: -20px;
 }
 .home-formacao-conteudo img {
 place-self: center;
+transform: translateY(0px);
+animation: float 3s ease-in-out infinite;
 }
 .informacoes {
 place-self: center;
@@ -80,5 +82,17 @@ width: 350px;
   .home-formacao-conteudo img  {
     width: 250px;
     height: 250px;
+  }
+}
+
+@keyframes float {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
   }
 }

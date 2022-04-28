@@ -38,9 +38,11 @@
 }
 .card {
   transition: background-color 0.3s linear;
+  transition: transform .5s;
 }
 .card:hover {
   background: linear-gradient(180deg, #004E92 0%, #000428 100%);
+  transform: rotateZ(-5deg);
 }
 .card:hover h3 {
   color: white;
