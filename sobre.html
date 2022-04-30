@@ -29,7 +29,7 @@
 
   <main>
     <section class=" container" aria-label="Sobre">
-      <div class="sobre-titulo ">
+      <div class="sobre-titulo" data-anime="anime">
         <img src="/img/caneca.svg" alt="ilutração caneca de café" width="40px">
         <h2 class="titulo">sobre.</h2>
       </div>
@@ -69,7 +69,22 @@
     </footer>
     <div class="copy font-2-s cor-texto">
       Copyright © 2022 - Marcos Ramos. </div>
-      <script src="/js/global.js"></script>
+    <script src="/js/global.js"></script>
+    <script>
+      function animarTitulo() {
+        const title = document.querySelector('[data-anime]')
+        const links = document.querySelectorAll('nav a')
+        function percorrerLinks(link) {
+          const url = location.href
+          const href = link.href
+          if (url === href) {
+            title.classList.add('animate')
+          }
+        }
+        links.forEach(percorrerLinks)
+      }
+      animarTitulo()
+    </script>
 </body>
 
 </html>

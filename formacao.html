@@ -29,7 +29,7 @@
 
   <main>
     <section class="formacao container">
-      <div class="formacao-titulo">
+      <div class="formacao-titulo" data-anime="anime">
         <img src="/img/caneca.svg" alt="ilutração caneca de café" width="40px">
         <h2 class="titulo">formação.</h2>
       </div>
@@ -64,7 +64,7 @@
 
             <div class="curso-conteudo cor-texto">
               <div class="concluido js-concluido">
-                <span class="font-1-s cor-texto" >HTML e CSS</span>
+                <span class="font-1-s cor-texto">HTML e CSS</span>
               </div>
               <ul class="cursos-info js-cursoInfo">
                 <li>HTML</li>
@@ -111,6 +111,21 @@
       Copyright © 2022 - Marcos Ramos. </div>
     <script src="/js/global.js"></script>
     <script src="/js/formação.js"></script>
+    <script>
+      function animarTitulo() {
+        const title = document.querySelector('[data-anime]')
+        const links = document.querySelectorAll('nav a')
+        function percorrerLinks(link) {
+          const url = location.href
+          const href = link.href
+          if (url === href) {
+            title.classList.add('animate')
+          }
+        }
+        links.forEach(percorrerLinks)
+      }
+      animarTitulo()
+    </script>
 </body>
 
 </html>
