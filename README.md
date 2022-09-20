@@ -7,7 +7,7 @@ Desde pequeno eu sempre gostei de tecnologia, aquelas interfaces lindas nos jogo
 
 ##
 
-- Atualmente estudoando HTML, CSS, JavaScript e UI Design.
+- Atualmente estudoando HTML, CSS, JavaScript, Dart/Flutter e UI Design.
 - Habilidades extras: Arquitetura de computadores, Linux e wordpress.
 - pronomes: ele/dele.
 ##
