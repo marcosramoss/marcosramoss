@@ -35,7 +35,7 @@ footer {
   display: flex;
   gap: 20px;
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .footer.container {
     padding-top: 0px;
   }
