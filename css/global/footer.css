@@ -12,7 +12,7 @@ footer {
   display: grid;
   gap: 10px;
 }
-.footer li{
+.footer li {
   list-style: none;
 }
 .footer a {
@@ -25,7 +25,7 @@ footer {
 .copy {
   text-align: center;
 }
-.referencias{
+.referencias {
   grid-column: 1;
 }
 .contato {
@@ -35,9 +35,12 @@ footer {
   display: flex;
   gap: 20px;
 }
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .footer.container {
     padding-top: 0px;
+  }
+  .logo img {
+    width: 280px;
   }
   .footer {
     grid-template-columns: 1fr;
