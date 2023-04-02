@@ -1,0 +1,116 @@
+.portifolio-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.portifolio {
+  max-width: 1400px;
+  width: 1300px;
+  background: #ddf;
+  border-radius: 30px;
+  padding: 64px 0;
+  margin-bottom: 120px;
+}
+.portifolio-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.portifolio-conteudo span {
+  font-family: Inter;
+  color: #77a;
+  margin-left: 40px;
+}
+.portifolio-conteudo h1 {
+  font-size: 3em;
+  font-family: Poppins;
+  color: #437;
+  margin-left: 40px;
+  margin-bottom: 32px;
+}
+.portifolio .titulo {
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+
+.portifolio-conteudo img {
+  grid-row: 2;
+}
+.portifolio-conteudo-card {
+  grid-row: 2;
+}
+.portifolio-conteudo-card p {
+  font-family: Inter;
+  color: #437;
+  margin: 0 0 40px 30px;
+}
+.portifolio-conteudo-card img {
+  width: 96px;
+  margin: 0 20px;
+}
+.medalha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px 50px 40px
+}
+.medalha hr {
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  width: 242px;
+}
+
+@media(max-width: 1260px){
+  .portifolio-conteudo{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .portifolio .titulo {
+    grid-row: 1;
+    grid-column: 1/-1;
+  }
+  .portifolio-conteudo img {
+    grid-row: 3;
+    place-self: center;
+  }
+  .portifolio-conteudo-card {
+    grid-row: 2;
+  }
+  .portifolio-conteudo h1{
+    font-size: 2em;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .portifolio-conteudo span{
+    margin-left: 0;
+  }
+}
+@media(max-width: 800px){
+  .medalha hr {
+    display: none;
+  }
+ .portifolio-ilustracao{
+  width: 300px;
+ }
+}
+@media(max-width: 600px){
+   .portifolio-container{
+    margin: 0px;
+  }
+  .portifolio-conteudo span{
+    margin-left: 0;
+  }
+  .portifolio-conteudo h1{
+    font-size: 1.5em;
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+  .portifolio-conteudo p{
+    margin: 30px;
+  }
+  .portifolio {
+    border-radius: 0px;
+  }
+  .portifolio-conteudo .medalha{
+    margin: 10px 0 50px 0;
+  }
+}

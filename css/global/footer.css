@@ -1,60 +1,78 @@
-footer {
-  margin-bottom: 60px;
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  align-items: start;
-  gap: 40px;
+.footer-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 80px;
 }
-.footer ul {
-  display: grid;
-  gap: 10px;
+.footer-conteudo img {
+  place-self: start;
 }
-.footer li {
-  list-style: none;
-}
-.footer a {
-  text-decoration: none;
-  color: var(--cor-texto);
-}
-.footer h2 {
+.footer-list h2 {
+  font-size: 1.7em;
+  font-family: Poppins;
   margin-bottom: 32px;
 }
-.copy {
-  text-align: center;
+.footer-list ul li {
+  margin-bottom: 16px;
 }
-.referencias {
-  grid-column: 1;
+.footer-list ul li a {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #000;
 }
-.contato {
-  grid-column: 2;
+
+footer {
+  background: #000;
 }
-.social-link {
+.footer-copy {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
-  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
 }
-@media (max-width: 900px) {
-  .footer.container {
-    padding-top: 0px;
+.footer-copy span {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #fff;
+}
+.social {
+  display: flex;
+  gap: 16px;
+}
+@media (max-width: 1100px) {
+  .footer-conteudo {
+    flex-direction: column;
+    gap: 40px;
   }
-  .logo img {
-    width: 280px;
+  .footer-conteudo img {
+    place-self: center;
+    margin-bottom: 64px;
   }
-  .footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: 150px 1fr 1fr;
+  .footer-list {
     text-align: center;
-    align-items: center;
-    gap: 0px;
+    margin-bottom: 64px;
   }
-  .contato {
-    grid-column: 1;
-    grid-row: 2;
-    margin-bottom: 40px;
+}
+@media (max-width: 420px) {
+  .footer-conteudo img{
+    width: 300px;
   }
-  .social {
-    grid-row: 3;
+  .footer-copy {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer-copy span{
+    text-align: center;
+    background: #000;
+  }
+  .footer-copy span{
+    font-size: 14px;
   }
 }

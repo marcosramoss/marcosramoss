@@ -1,0 +1,120 @@
+.experiencia-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.experiencia-titulo span {
+  font-family: Inter;
+  color: var(--cor-2);
+}
+.experiencia-titulo h1 {
+  font-size: 3em;
+  font-family: Poppins;
+  color: var(--cor-1);
+  margin-bottom: 64px;
+}
+.projeto {
+  margin-bottom: 64px;
+}
+.projeto img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+
+.projeto h2 {
+  font-size: 32px;
+  font-family: Poppins;
+  margin-bottom: 32px;
+}
+.projeto p {
+  width: 460px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: var(--cor-2);
+  margin-bottom: 32px;
+}
+.projeto a {
+  font-family: "Poppins";
+  padding: 16px 32px;
+  background: var(--cor-1);
+  color: var(--cor-3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 20px;
+  transition: .3s;
+}
+.projeto a:hover {
+  background: #444;
+}
+.apps, .sites {
+  display: flex;
+  gap: 20px;
+  margin: 120px 0;
+}
+.melembre, .proj-rbb {
+  margin-top: 200px;
+}
+
+@media (max-width: 1150px) {
+  .apps, .sites{
+    flex-direction: column;
+  }
+  .apps img,
+  .sites img {
+    place-self: center;
+  }
+  .calculadora,
+  .melembre,
+  .proj-portifolio,
+  .proj-rbb {
+    margin: 0 auto 160px auto;
+  }
+  .melembre div,
+  .calculadora div,
+  .proj-portifolio div,
+  .proj-rbb div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .projeto img {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .calculadora,
+  .melembre,
+  .proj-portifolio,
+  .proj-rbb {
+    margin: 0 auto 64px auto;
+  }
+  .experiencia-titulo h1 {
+    font-size: 1.8em;
+    font-family: Poppins;
+    margin-bottom: 64px;
+  }
+  .projeto h2 {
+    font-size: 1.5em;
+    margin-bottom: 16px;
+  }
+  .projeto p {
+    width: auto;
+  }
+  .projeto a {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .projeto img {
+    max-width: 300px;
+  }
+  .proj-portifolio img {
+    margin-bottom: 16px;
+  }
+  .proj-portifolio {
+    margin-bottom: 100px;
+  }
+}

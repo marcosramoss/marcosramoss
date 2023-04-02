@@ -1,0 +1,115 @@
+.habilidades-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.habilidades {
+  max-width: 1440px;
+  margin-bottom: 120px;
+}
+.habilidades span {
+  font-family: Inter;
+  color: var(--cor-2);
+}
+.habilidades h1 {
+  font-size: 3em;
+  font-family: Poppins;
+  color: var(--cor-1);
+  margin-bottom: 32px;
+}
+
+.habilidades-conteudo {
+  display: flex;
+  justify-content: space-around;
+  
+  gap: 64px;
+
+}
+.card-prototipo {
+  width: 390px;
+  color: white;
+  padding: 32px;
+  border-radius: 30px;
+  background: #f50;
+  /* background-image: url(../../../assets/prototipo_img.png); */
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.card-prototipo img {
+  margin-bottom: 32px;
+  
+}
+.card-prototipo h3 {
+  margin-bottom: 32px;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+.card-prototipo p {
+  font-family: Inter, Helvetica, sans-serif;
+}
+
+.card-responsividade {
+  width: 390px;
+  background: #924;
+  color: white;
+  padding: 32px;
+  border-radius: 30px;
+  /* background-image: url(../../../assets/responsividade_img.png); */
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.card-responsividade img {
+  margin-bottom: 32px;
+}
+.card-responsividade h3 {
+  margin-bottom: 32px;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+.card-responsividade p {
+  font-family: Inter, Helvetica, sans-serif;
+}
+
+.card-interatividade {
+  width: 390px;
+  background: #c07;
+  color: white;
+  padding: 32px;
+  border-radius: 30px;
+  /* background-image: url(../../../assets/interatividade_img.png); */
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.card-interatividade img {
+  margin-bottom: 32px;
+}
+.card-interatividade h3 {
+  margin-bottom: 32px;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+.card-interatividade p {
+  font-family: Inter, Helvetica, sans-serif;
+}
+
+@media (max-width: 1336px) {
+  .habilidades-conteudo {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .habilidades h1 {
+    font-size: 2em;
+  }
+  .card-prototipo {
+    width: 100%;
+  }
+  .card-responsividade {
+    width: 100%;
+  }
+  .card-interatividade {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .habilidades {
+    margin-bottom: 100px;
+  }
+}

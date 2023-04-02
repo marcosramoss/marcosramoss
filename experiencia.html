@@ -1,124 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Marcos Ramos">
+        <meta name="description" content="Veja meusprojetos e tenha acesso a
+            meus códigos. seja bem-vindo ao meu portifólio!">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="assets/favicon.svg" type="image/x-icon">
+        <title>Marcos Ramos | Experiência</title>
+    </head>
+    <body>
+        <header id="header">
+            <a id="logo" href="/"><img src="assets/logo.svg" alt=""></a>
+            <a id="logo-grande" href="/"><img
+                    src="assets/logo-grande.svg"
+                    alt=""></a>
+            <nav id="nav">
+                <button id="btn-mobile">Menu <span id="hamburger"></span></button>
+                <ul id="menu">
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="experiencia.html">Experiência</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Marcos Ramos">
-  <meta name="description" content="Confira meus trabalhos e tenha acesso a meus códigos. Seja bem-vindo ao meu portfólio!">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="./img/icons/favicon.svg" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=IBM+Plex+Mono:ital@1&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <title>Experiência | Marcos Ramos</title>
-</head>
+        <section class="experiencia-page-container">
+            <div class="experiencia-titulo">
+                <span>Alguns projetos pessoais.</span>
+                <h1>Meus experimentos.</h1>
+            </div>
 
-<body id="experiencia">
-  <header class="header container">
-    <a class="logo" href="/"> <img src="/img/Logo.svg" alt=""></a>
-    <nav>
-      <ul class="navegacao font-1-s cor-texto">
-        <li><a href="./experiencia.html">Experiência</a></li>
-        <li><a href="./formacao.html">Formação</a></li>
-        <li><a href="./sobre.html">Sobre</a></li>
-      </ul>
-    </nav>
-  </header>
+            <div class="apps">
 
-  <main>
+                <div class="projeto calculadora">
+                    <div>
+                        <img src="assets/calculadoraimctmb.png" alt="Imagens do
+                            app calculadora-imc-tmb" title="Usei os prints do
+                            app para desenvolver esta imagem através do Figma">
+                    </div>
+                    <h2>Calculadora imc tmb</h2>
+                    <p>Descubra quantas calorias você precisa consumir no dia
+                        de acordo com o seu estilo de vida.</p>
+                    <a href="https://calculadoraimctmb.netlify.app/#/"
+                        target="_blank" rel="noopener">Experimente</a>
+                    <a href="apk/calculadora-imc-tmb.apk" target="_blank"
+                        rel="noopener">Baixe o APK</a>
+                </div>
 
-    <section class="experiencia container">
-      <div class="experiencia-container" data-anime="anime">
-        <img src="/img/caneca.svg" alt="ilutração caneca de café" width="40px" title="Desenvolvi no Figma">
-        <h2 class="titulo">experiência.</h2>
-      </div>
+                <div class="projeto melembre">
+                    <div>
+                        <img src="assets/melembreapp.png" alt="Imagens do app
+                            melembre" title="Usei os prints do app para
+                            desenvolver esta imagem através do Figma">
+                    </div>
+                    <h2>Melembre</h2>
+                    <p>Crie ou apague lembretes rápidos e de forma simples e
+                        intuitiva.</p>
+                    <a href="apk/melembre.apk">Baixe o APK</a>
+                </div>
+
+            </div>
+
+            <div class="sites">
+                <div class="projeto proj-portifolio">
+                    <div>
+                        <img src="assets/portifolio.png" alt="Imagem do
+                            portifólio"
+                            title="Usei um print do portifólio para criar esta
+                            imagem
+                            através do Figma">
+                    </div>
+                    <h2>Portifólio</h2>
+                    <p>Este portifólio que você está acessando não poderia
+                        ficar de fora, não é verdade? Este foi um dos trabalhos
+                        mais
+                        divertidos e prazerosos que já fiz, então fique a
+                        vontade
+                        para
+                        acessar o código fonte dele. </p>
+                    <a href="">Ver código fonte</a>
+                </div>
+
+                <div class="projeto proj-rbb">
+                    <div>
+                        <img src="assets/print-site-rbb.png" alt="Imagem do
+                            portifólio"
+                            title="Usei um print do portifólio para criar esta
+                            imagem
+                            através do Figma">
+                    </div>
+                    <h2>R.B. Brandão</h2>
+                    <p>Desenvolvi o site RBB apenas com HTML, CSS e JS.
+                        Nele usei técnicas como Utilitário CSS, Flex e Grid Layout e
+                        Layout Responsivo. Também criei um formulário que
+                        usa a API do FormSubmit para enviar mensagens para o e-mail do cliente.  Por fim adicionei animações CSS.
+                        Acesse agora este site e veja como ficou!
+                        </p>
+                    <a href="https://rbbrandao.com.br" target="_blank" rel="noopener">Acesse o site</a>
+                </div>
+
+            </div>
 
 
-      <div class="experiencia-conteudo container">
-        <div class="bikcraft-img">
-          <img src="/img/site-bikcraftsite-imagem.png" alt="" width="605" height="400" title="Desenvolvi no Figma">
+        </section>
+
+        <div class="footer-container">
+            <div class="footer-conteudo">
+                <img src="assets/logo-grande.svg" alt="imagem logo">
+                <div class="footer-list">
+                    <h2>Navegação</h2>
+                    <ul>
+                        <li><a href="formacao.html">Formação</a></li>
+                        <li><a href="experiencia.html">Experiência</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h2>Contato</h2>
+                    <ul>
+                        <li><a href="mailto:marcosramoss.pessoal@gmail.com">marcosramoss.pessoal@gmail.com</a></li>
+                        <li><a href="tel:+351 913 463 399">+351 913 463 399</a></li>
+                        <li><a href="https://goo.gl/maps/fL1ykj8ZbVym1C198"
+                                target="_blank" rel="noopener">Batalha, Leiria -
+                                Portugal</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="chapa-conteudo cor-texto">
-          <span class="font-1-s cor-texto">projeto pessoal</span>
-          <h3 class="font-1-xl cor-texto">Bikcraft</h3>
-          <p class="font-2-s">Desenvolvi o site Bikcraft usando apenas HTML, CSS e JavaScript como projeto guiado na
-            plataforma Origamid, onde apliquei técnicas de CSS Grid Layout, CSS Flexbox, Layout Responsivo, Git e Front
-            End. <br> <br>
-            Antes do projeto, construi o protótipo no figma com todo o sistema de disign do site.
-          </p>
-          <a class="link" href="https://marcosramoss-bikcraft.netlify.app/" target="_blank" rel="noopener">acesse o site
-            bikcraft</a>
-        </div>
-      </div>
-
-      <div class="experiencia-conteudo container">
-        <div class="chapa-conteudo cor-texto">
-          <span class="font-1-s cor-texto">projeto pessoal</span>
-          <h3 class="font-1-xl cor-texto">Calculadora imc tmb</h3>
-          <p class="font-2-s">Desenvolvi o aplicativo Calculadora imc tmb usando Dart e Flutter. Todo o código do app foi componentizado para melhor manutenção, falcilidade de leitura e reutilização dos componentes.
-          </p>
-
-          <p class="font-2-s">Downloads</p>
-
-          <a class="botao-download" href="files/calculadoraimctmb.apk" target="_blank" rel="noopener"><img src="img/android.svg" alt=""></a>
-
-          <a class="botao-download" href="files/calculadoraimctmb_windows.zip" target="_blank" rel="noopener"><img src="img/windows.svg" alt="" title="Desenvolvi no figma"></a>
-
-          <a class="botao-download" href="https://calculadoraimctmb.netlify.app/" target="_blank" rel="noopener"><img src="img/web.svg" alt=""></a>
-
-        </div>
-
-        <div class="calc-img">
-          <img src="/img/app-calculadorai-mct-mb.png" alt="" width="605" height="400" title="Desenvolvi no Figma">
-        </div>
-      </div>
-    </section>
-
-
-
-  </main>
-
-  <div class="container">
-    <footer class="footer">
-      <div class="logo">
-        <img src="/img/Logo.svg" alt="">
-      </div>
-      <div class="contato">
-        <h2 class="font-1-m cor-texto">Contato</h2>
-        <ul class="font-2-s">
-          <li> <a href="mailto:marcosramoss.pessoal@gmail.com">marcosramoss.pessoal@gmail.com</a></li>
-          <li> <a href="+351 913463399">+351 913 463 399</a></li>
-          <li><a href="https://goo.gl/maps/fL1ykj8ZbVym1C198" target="_blank" rel="noopener">Leiria - Portugal</a>
-          </li>
-        </ul>
-      </div>
-      <div class="social">
-        <h2 class="font-1-m cor-texto">Social</h2>
-        <div class="social-link">
-          <a href="https://github.com/marcosramoss" target="_blank" rel="noopener"><img width="36px" height="36px" src="/img/icone-github.svg" alt="Perfil do Github" title="Guithub"></a>
-          <a href="https://www.linkedin.com/in/marcosramoss/" target="_blank" rel="noopener"><img width="36px" height="36px" src="/img/icone-linkedin.svg" alt="Perfil do linkedin" title="Linkedin"></a>
-        </div>
-    </footer>
-    <div class="copy font-2-s cor-texto">
-      Copyright © 2022 - Marcos Ramos. </div>
-    <script src="/js/global.js"></script>
-    <script>
-      function animarTitulo() {
-        const title = document.querySelector('[data-anime]')
-        const links = document.querySelectorAll('nav a')
-        function percorrerLinks(link) {
-          const url = location.href
-          const href = link.href
-          if (url === href) {
-            title.classList.add('animate')
-          }
-        }
-        links.forEach(percorrerLinks)
-      }
-      animarTitulo()
-    </script>
-</body>
-
+        <footer>
+            <div class="footer-copy">
+                <span>© 2023 Marcos Ramos | Todos os direitos.</span>
+                <div class="social">
+                    <a href="https://github.com/marcosramoss" target="_blank"
+                        rel="noopener"><img
+                            src="assets/icone-github.svg" alt="icone do github"></a>
+                    <a href="https://www.linkedin.com/in/marcosramoss/"
+                        target="_blank" rel="noopener"><img
+                            src="assets/icone-linkedin.svg" alt="icone do
+                            linkedin"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
 </html>

@@ -1,9 +1,42 @@
 :root {
-  --cor-texto: #00004D;
-  --cor-icone: #012A5E;
-  --cor-branco: #ffffff;
-  --sombra: box-shadow: 0px 4px 20px rgba(0, 0, 77, 0.1);
+  --cor-bg-1: #ffe7d8;
+  --cor-bg-2: #dddcff;
+  --cor-bg-3: #ff661a;
+  --cor-bg-4: #a53855;
+  --cor-bg-5: #ce1a84;
+  --cor-0: #000;
+  --cor-1: #222;
+  --cor-2: #999;
+  --cor-3: #fff;
+  --cor-4: #413F79;
 }
-.cor-texto {
-  color: var(--cor-texto);
+.cor-bg-1 {
+  background: var(--cor-bg-1)
+}
+.cor-bg-2 {
+  background: var(--cor-bg-2)
+}
+.cor-bg-3 {
+  background: var(--cor-bg-3)
+}
+.cor-bg-4 {
+  background: var(--cor-bg-4)
+}
+.cor-bg-5 {
+  background: var(--cor-bg-5)
+}
+.cor-0 {
+  color: var(--cor-0)
+}
+.cor-1 {
+  color: var(--cor-1)
+}
+.cor-2 {
+  color: var(--cor-2)
+}
+.cor-3 {
+  color: var(--cor-3)
+}
+.cor-4{
+  color: var(--cor-4);
 }

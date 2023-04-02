@@ -1,101 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Marcos Ramos">
+        <meta name="description" content="Veja meusprojetos e tenha acesso a
+            meus códigos. seja bem-vindo ao meu portifólio!">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="assets/favicon.svg" type="image/x-icon">
+        <title>Marcos Ramos | Formação </title>
+    </head>
+    <body>
+        <header id="header">
+            <a id="logo" href="/"><img src="assets/logo.svg" alt="Logo reduzida do site"></a>
+            <a id="logo-grande" href="/"><img
+                    src="assets/logo-grande.svg"
+                    alt="Logo do site"></a>
+            <nav id="nav">
+                <button id="btn-mobile">Menu <span id="hamburger"></span></button>
+                <ul id="menu">
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="experiencia.html">Experiência</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Marcos Ramos">
-    <meta name="description" content="Confira meus trabalhos e tenha acesso a
-      meus códigos. Seja bem-vindo ao meu portfólio!">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./img/icons/favicon.svg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=IBM+Plex+Mono:ital@1&family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet">
-    <title>Sobre | Marcos Ramos</title>
-  </head>
+        <div class="sobre-titulo">
+            <span>Como cheguei até aqui.</span>
+            <h1>Um pouco sobre mim.</h1>
+        </div>
+        <section class="sobre-container">
+            <div>
+                <div class="sobre-conteudo">
+                    <img src="assets/python-svg.svg" alt="imagem Python" title="Python">
+                    <p>Meu primeiro contato com Programação foi com Python em
+                        2017,
+                        onde pude desenvolver alguns apps para Windows usando a
+                        biblioteca Tkinter, porém, não fiquei muito satisfeito
+                        com
+                        as interfaces, então decidi pesquisar por outras
+                        tecnologias.</p>
+                </div>
+                <div class="sobre-conteudo">
+                    <div class="list-tec">
+                        <img src="assets/dart-svg.svg" alt="imagem Dart" title="Dart">
+                        <img src="assets/flutter-svg.svg" alt="imagem Flutter" title="Flutter">
+                    </div>
+                    <p>Foi quando e conheci o Flutter em 2019 e fiquei
+                        maravilhado
+                        com o que eu poderia fazer com ele, desenvolvi alguns
+                        apps
+                        guiados em cursos e alguns pessoais, então decidi estudar o Dart mais a
+                        fundo.
+                        Foi muito divertido mas eu queria mais! Eu precisava
+                        criar
+                        um portifólio para mostrar minhas habilidades e nessa
+                        época
+                        o Flutter não tinha um bom suporte para Web.</p>
+                </div>
+                <div class="sobre-conteudo">
+                    <div class="list-tec">
+                        <img src="assets/html5-svg.svg" alt="imagem HTML 5" title="HTML 5">
+                        <img src="assets/css3-svg.svg" alt="imagem CSS 3" title="CSS 3">
+                        <img src="assets/javascript-svg.svg" alt="imagem JavaScript" title="JavaScript">
+                        <img src="assets/figma-svg.svg" alt="imagem Figma" title="Figma">
+                        <img src="assets/github-svg.svg" alt="imagem Github" title="Github">
+                    </div>
+                    <p class="mb">Foi então que decidi estudar Font-end em 2021, onde pude
+                        aprender a desenvolver um projeto desde um protótipo até
+                        a
+                        hospedagem. Este portifólio é só um exemplo do que
+                        consigo
+                        desenvolver
+                        hoje, mas quero aprender ainda mais e estou ansioso para
+                        compartilhar meu conhecimento e habilidades com você.
+                    </p>
+                </div>
+            </div>
+            <img class="perfil" src="assets/perfil.png" alt="Forto de Perfil do Marcos" title="Desenvolvi esta imagem através do Figma">
+        </section>
 
-  <body id="sobre">
-    <header class="header container">
-      <a class="logo" href="/"> <img src="/img/Logo.svg" alt=""></a>
-      <nav>
-        <ul class="navegacao font-1-s cor-texto">
-          <li><a href="./experiencia.html">Experiência</a></li>
-          <li><a href="./formacao.html">Formação</a></li>
-          <li><a href="./sobre.html">Sobre</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <section class=" container" aria-label="Sobre">
-        <div class="sobre-titulo" data-anime="anime">
-          <img src="/img/caneca.svg" alt="ilutração caneca de café"
-            width="40px">
-          <h2 class="titulo">sobre.</h2>
+        <div class="footer-container">
+            <div class="footer-conteudo">
+                <img src="assets/logo-grande.svg" alt="imagem logo">
+                <div class="footer-list">
+                    <h2>Navegação</h2>
+                    <ul>
+                        <li><a href="formacao.html">Formação</a></li>
+                        <li><a href="experiencia.html">Experiência</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h2>Contato</h2>
+                    <ul>
+                        <li><a href="mailto:marcosramoss.pessoal@gmail.com">marcosramoss.pessoal@gmail.com</a></li>
+                        <li><a href="tel:+351 913 463 399">+351 913 463 399</a></li>
+                        <li><a href="https://goo.gl/maps/fL1ykj8ZbVym1C198"
+                                target="_blank" rel="noopener">Batalha, Leiria -
+                                Portugal</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="sobre-conteudo ">
-          <img src="/img/foto.png" alt="">
-          <p class="font-2-s cor-texto">Desde de pequeno eu sempre gostei de
-            tecnologia, aquelas interfaces lindas nos jogos e nos sites. Hoje
-            desenvolvo meus próprios projetos e ilustrações, e estou me
-            divertindo muito com isso. Meu objetivo é me dedicar a resolver
-            problemas através da tecnologia, pois eu descobri o quão poderoso é
-            aprender programar.
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <div class="container">
-      <footer class="footer">
-        <div class="logo">
-          <img src="/img/Logo.svg" alt="" width="300px">
-        </div>
-        <div class="contato">
-          <h2 class="font-1-m cor-texto">Contato</h2>
-          <ul class="font-2-s">
-            <li> <a href="mailto:marcosramoss.pessoal@gmail.com">marcosramoss.pessoal@gmail.com</a></li>
-            <li> <a href="+351 913463399">+351 913 463 399</a></li>
-            <li><a href="https://goo.gl/maps/fL1ykj8ZbVym1C198" target="_blank"
-                rel="noopener">Leiria - Portugal</a>
-            </li>
-          </ul>
-        </div>
-        <div class="social">
-          <h2 class="font-1-m cor-texto">Social</h2>
-          <div class="social-link">
-            <a href="https://github.com/marcosramoss" target="_blank"
-              rel="noopener"><img width="36px" height="36px"
-                src="/img/icone-github.svg" alt="Perfil do Github"
-                title="Guithub"></a>
-            <a href="https://www.linkedin.com/in/marcosramoss/" target="_blank"
-              rel="noopener"><img width="36px"
-                height="36px" src="/img/icone-linkedin.svg" alt="Perfil do
-                linkedin" title="Linkedin"></a>
-          </div>
+        <footer>
+            <div class="footer-copy">
+                <span>© 2023 Marcos Ramos | Todos os direitos.</span>
+                <div class="social">
+                    <a href="https://github.com/marcosramoss" target="_blank"
+                        rel="noopener"><img
+                            src="assets/icone-github.svg" alt="icone do github"></a>
+                    <a href="https://www.linkedin.com/in/marcosramoss/"
+                        target="_blank" rel="noopener"><img
+                            src="assets/icone-linkedin.svg" alt="icone do
+                            linkedin"></a>
+                </div>
+            </div>
         </footer>
-        <div class="copy font-2-s cor-texto">
-          Copyright © 2022 - Marcos Ramos. </div>
-        <script src="/js/global.js"></script>
-        <script>
-      function animarTitulo() {
-        const title = document.querySelector('[data-anime]')
-        const links = document.querySelectorAll('nav a')
-        function percorrerLinks(link) {
-          const url = location.href
-          const href = link.href
-          if (url === href) {
-            title.classList.add('animate')
-          }
-        }
-        links.forEach(percorrerLinks)
-      }
-      animarTitulo()
-    </script>
-      </body>
-
-    </html>
+        <script src="js/main.js"></script>
+    </body>
+</html>
