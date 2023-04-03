@@ -16,7 +16,7 @@
         <title>Marcos Ramos | Desenvolvedor Front End & UX UI Designer</title>
     </head>
     <body>
-        <header id="header">
+        <header id="header" >
             <a id="logo" href="/"><img src="assets/logo.svg" alt="Logo reduzida do site"></a>
             <a id="logo-grande" href="/"><img src="assets/logo-grande.svg"
                     alt="Logo do site"></a>
@@ -33,10 +33,10 @@
         <section class="introducao-container">
             <div class="introducao-card">
                 <div class="introducao-conteudo">
-                    <h1 class="font-xl cor-1">Desenvolvedor Front-end & <br> UX
+                    <h1 class="font-xl cor-1 fadeInDown" data-anime="200"> Desenvolvedor Front-end & <br> UX
                         / UI
                         Designer.</h1>
-                    <p class="font-m cor-1">Olá, meu nome é Marcos, e sou um
+                    <p class="font-m cor-1 fadeInDown" data-anime="400" >Olá, meu nome é Marcos, e sou um
                         desenvolvedor front-end.
                         Tenho experiência em criar experiências de usuário ricas
                         e intuitivas usando <strong>HTML, CSS, JavaScript e Dart
@@ -44,11 +44,11 @@
                         habilidades de design, além de técnicas de codificação.
                     </p>
                 </div>
-                <img src="assets/imagem intro.svg" alt="Ilustração de um celular e um tablet" title="Desenvolvi no Figma">
+                <img class="fadeInDown" data-anime="600" src="assets/imagem intro.svg" alt="Ilustração de um celular e um tablet" title="Desenvolvi no Figma">
             </div>
         </section>
 
-        <section class="segunda-secao-container">
+        <section class="segunda-secao-container fadeInLeft" data-anime="700">
             <div class="segunda-secao">
                 <h2 class="font-l">Por que escolhi o Front-end?</h2>
                 <p class="cor-2">
@@ -62,7 +62,7 @@
             </div>
         </section>
 
-        <section class="habilidades-container">
+        <section class="habilidades-container fadeInRight" data-anime="800">
             <div class="habilidades">
                 <span>O que consigo fazer.</span>
                 <h1>Habilidades.</h1>
@@ -105,7 +105,7 @@
             </div>
         </section>
 
-        <section class="portifolio-container">
+        <section class="portifolio-container fadeInLeft" data-anime="900">
             <div class="portifolio">
                 <div class="portifolio-conteudo">
                     <div class="titulo">
@@ -136,7 +136,7 @@
             </div>
         </section>
 
-        <section class="formacao-container">
+        <section class="formacao-container fadeInRight" data-anime="1000">
             <div class="formacao-titulo">
                 <span class="cor-2">Em que sou certificado.</span>
                 <h1>Formação técnica.</h1>
@@ -205,6 +205,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/plugins/simple-anime.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

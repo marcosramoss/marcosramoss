@@ -33,12 +33,12 @@
         </header>
 
         <div class="sobre-titulo">
-            <span>Como cheguei até aqui.</span>
-            <h1>Um pouco sobre mim.</h1>
+            <span data-anime="100">Como cheguei até aqui.</span>
+            <h1 data-anime="100">Um pouco sobre mim.</h1>
         </div>
         <section class="sobre-container">
             <div>
-                <div class="sobre-conteudo">
+                <div class="sobre-conteudo fadeInDown" data-anime="100">
                     <img src="assets/python-svg.svg" alt="imagem Python" title="Python">
                     <p>Meu primeiro contato com Programação foi com Python em
                         2017,
@@ -48,7 +48,7 @@
                         as interfaces, então decidi pesquisar por outras
                         tecnologias.</p>
                 </div>
-                <div class="sobre-conteudo">
+                <div class="sobre-conteudo fadeInDown" data-anime="200">
                     <div class="list-tec">
                         <img src="assets/dart-svg.svg" alt="imagem Dart" title="Dart">
                         <img src="assets/flutter-svg.svg" alt="imagem Flutter" title="Flutter">
@@ -65,7 +65,7 @@
                         época
                         o Flutter não tinha um bom suporte para Web.</p>
                 </div>
-                <div class="sobre-conteudo">
+                <div class="sobre-conteudo fadeInDown" data-anime="300">
                     <div class="list-tec">
                         <img src="assets/html5-svg.svg" alt="imagem HTML 5" title="HTML 5">
                         <img src="assets/css3-svg.svg" alt="imagem CSS 3" title="CSS 3">
@@ -84,7 +84,7 @@
                     </p>
                 </div>
             </div>
-            <img class="perfil" src="assets/perfil.png" alt="Forto de Perfil do Marcos" title="Desenvolvi esta imagem através do Figma">
+            <img class="perfil fadeInDown" data-anime="100" src="assets/perfil.png" alt="Forto de Perfil do Marcos" title="Desenvolvi esta imagem através do Figma">
         </section>
 
 
@@ -125,6 +125,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/plugins/simple-anime.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

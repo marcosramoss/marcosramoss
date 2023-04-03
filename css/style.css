@@ -8,6 +8,7 @@
 @import url(util/tipografia.css);
 @import url(util/cores.css);
 @import url(util/componentes.css);
+@import url(util/animacao.css);
 
 /* Home */
 @import url(pages/home/introducao.css);
