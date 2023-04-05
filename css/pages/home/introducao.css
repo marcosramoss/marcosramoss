@@ -5,9 +5,9 @@
   margin: 30px;
 }
 .introducao-card {
+  width: 1300px;
   padding: 64px;
   align-items: center;
-  max-width: 1400px;
   background: #ffe7d8;
   border-radius: 30px;
   display: flex;
