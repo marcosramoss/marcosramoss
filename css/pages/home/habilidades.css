@@ -1,7 +1,9 @@
 .habilidades-container {
-  max-width: 1300px;
+  max-width: 1350px;
   margin: 0 auto;
-  padding: 0 30px;
+}
+.margin{
+  margin: 0 30px;
 }
 .habilidades h1 {
   margin-bottom: 64px;
