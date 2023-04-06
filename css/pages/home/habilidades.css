@@ -1,115 +1,63 @@
 .habilidades-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
-}
-.habilidades {
-  max-width: 1440px;
-  margin-bottom: 120px;
-}
-.habilidades span {
-  font-family: Inter;
-  color: var(--cor-2);
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 .habilidades h1 {
-  font-size: 3em;
-  font-family: Poppins;
-  color: var(--cor-1);
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
-
 .habilidades-conteudo {
-  display: flex;
-  justify-content: space-around;
-  
-  gap: 64px;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 40px;
+  margin-bottom: 120px;
 }
-.card-prototipo {
-  width: 390px;
-  color: white;
-  padding: 32px;
-  border-radius: 30px;
-  background: #f50;
-  /* background-image: url(../../../assets/prototipo_img.png); */
-  background-repeat: no-repeat;
-  background-position: top right;
+.habilidades-item img,
+h3 {
+  margin-bottom: 20px;
 }
-.card-prototipo img {
-  margin-bottom: 32px;
-  
+.card-info {
+  grid-column: 3;
+  grid-row: 1/3;
+  padding: 100px;
+  background: #dde9ff;
+  text-align: center;
+  border-radius: 5px;
 }
-.card-prototipo h3 {
-  margin-bottom: 32px;
-  font-family: Poppins, Helvetica, sans-serif;
+.card-info h3 {
+  margin-bottom: 40px;
 }
-.card-prototipo p {
-  font-family: Inter, Helvetica, sans-serif;
+.card-info p {
+  margin-bottom: 30px;
 }
-
-.card-responsividade {
-  width: 390px;
-  background: #924;
-  color: white;
-  padding: 32px;
-  border-radius: 30px;
-  /* background-image: url(../../../assets/responsividade_img.png); */
-  background-repeat: no-repeat;
-  background-position: top right;
+.card-info a {
+  background: var(--cor-7);
 }
-.card-responsividade img {
-  margin-bottom: 32px;
-}
-.card-responsividade h3 {
-  margin-bottom: 32px;
-  font-family: Poppins, Helvetica, sans-serif;
-}
-.card-responsividade p {
-  font-family: Inter, Helvetica, sans-serif;
+.card-info a:hover {
+  background: var(--cor-6);
 }
 
-.card-interatividade {
-  width: 390px;
-  background: #c07;
-  color: white;
-  padding: 32px;
-  border-radius: 30px;
-  /* background-image: url(../../../assets/interatividade_img.png); */
-  background-repeat: no-repeat;
-  background-position: top right;
-}
-.card-interatividade img {
-  margin-bottom: 32px;
-}
-.card-interatividade h3 {
-  margin-bottom: 32px;
-  font-family: Poppins, Helvetica, sans-serif;
-}
-.card-interatividade p {
-  font-family: Inter, Helvetica, sans-serif;
-}
-
-@media (max-width: 1336px) {
+@media (max-width: 1160px) {
   .habilidades-conteudo {
-    flex-direction: column;
-    gap: 32px;
+    grid-template-columns: 1fr 1fr;
   }
-  .habilidades h1 {
-    font-size: 2em;
-  }
-  .card-prototipo {
-    width: 100%;
-  }
-  .card-responsividade {
-    width: 100%;
-  }
-  .card-interatividade {
-    width: 100%;
+  .card-info {
+    grid-column: 1/-1;
+    grid-row: 4;
   }
 }
-@media (max-width: 600px) {
-  .habilidades {
-    margin-bottom: 100px;
+
+@media(max-width: 600px){
+  .habilidades-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .card-info {
+    grid-row: 6;
+    padding: 80px 40px;
+  }
+  .habilidades-item {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    padding-bottom: 1rem;
   }
 }

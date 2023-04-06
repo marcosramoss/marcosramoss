@@ -8,5 +8,14 @@
   font: 400 18px/26px "Inter", Helvetica, sans-serif;
 }
 .font-p {
-  font: 400 16px "Poppins", Helvetica, sans-serif;
+  font: 400 1rem/1.5rem "Inter", Helvetica, sans-serif;
+}
+
+@media(max-width: 1160px){
+  .font-xl{
+    font-size: 2rem;
+  }
+  .font-l{
+    font-size: 1.5rem;
+  }
 }

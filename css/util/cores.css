@@ -9,6 +9,9 @@
   --cor-2: #999;
   --cor-3: #fff;
   --cor-4: #413F79;
+  --cor-5: #DDE9FF;
+  --cor-6: #072970;
+  --cor-7: #375DAD;
 }
 .cor-bg-1 {
   background: var(--cor-bg-1)
@@ -39,4 +42,13 @@
 }
 .cor-4{
   color: var(--cor-4);
+}
+.cor-5{
+  color: var(--cor-5);
+}
+.cor-6{
+  color: var(--cor-6);
+}
+.cor-7{
+  color: var(--cor-7);
 }
