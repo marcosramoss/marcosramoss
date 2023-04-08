@@ -1,11 +1,14 @@
+.font-xxl {
+  font: 700 4rem/6rem "Poppins", Helvetica, sans-serif;
+}
 .font-xl {
-  font: 700 64px/96px "Poppins", Helvetica, sans-serif;
+  font: 700 3rem "Poppins", Helvetica, sans-serif;
 }
 .font-l {
   font: 600 1.7rem "Poppins", Helvetica, sans-serif;
 }
 .font-m {
-  font: 400 18px/26px "Inter", Helvetica, sans-serif;
+  font: 400 1.125rem/1.625rem "Inter", Helvetica, sans-serif;
 }
 .font-p {
   font: 400 1rem/1.5rem "Inter", Helvetica, sans-serif;
@@ -17,5 +20,13 @@
   }
   .font-l{
     font-size: 1.5rem;
+  }
+}
+@media(max-width: 600px){
+  .font-xxl{
+    font-size: 2rem;
+  }
+  .font-m {
+    font-size: 1rem;
   }
 }

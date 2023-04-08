@@ -16,8 +16,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .portifolio-conteudo span {
-  font-family: Inter;
-  color: #77a;
+  color: #437;
   margin-left: 40px;
 }
 .portifolio-conteudo h1 {
@@ -39,7 +38,6 @@
   grid-row: 2;
 }
 .portifolio-conteudo-card p {
-  font-family: Inter;
   color: #437;
   margin: 0 0 40px 30px;
 }

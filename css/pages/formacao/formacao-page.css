@@ -3,14 +3,7 @@
   margin: 0 auto;
   padding: 30px;
 }
-.formacao-page-container span {
-  font-family: Inter;
-  color: var(--cor-2);
-}
 .formacao-page-container h1 {
-  font-size: 3em;
-  font-family: Poppins;
-  color: var(--cor-1);
   margin-bottom: 64px;
 }
 .certificados {

@@ -4,23 +4,13 @@
   padding: 30px;
 }
 .formacao-titulo h1 {
-  font-size: 3em;
-  font-family: Poppins;
-  color: #222;
   margin-bottom: 64px;
-}
-.formacao-titulo span {
-  font-family: Inter;
 }
 .formacao-conteudo {
   margin-left: 200px;
   margin-bottom: 64px;
 }
 .formacao-conteudo summary {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
   margin-bottom: 16px;
   position: relative;
   cursor: pointer;
@@ -42,10 +32,6 @@ details[open] summary::before{
   border: 8px solid #F3C6E0;
 }
 .formacao-conteudo p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   max-width: 860px;
 }
 
