@@ -21,7 +21,7 @@
   max-width: 100%;
   border-radius: 20px;
   margin-bottom: 32px;
-  border: 2px solid rgba(0, 0, 0, 0.05);
+  border: 2px solid rgba(0, 0, 0, 0.05)
 }
 
 .projeto h2 {
@@ -109,12 +109,6 @@
   .projeto a {
     padding: 12px 20px;
     font-size: 14px;
-  }
-  .projeto img {
-    max-width: 300px;
-  }
-  .proj-portifolio img {
-    margin-bottom: 16px;
   }
   .proj-portifolio {
     margin-bottom: 100px;
