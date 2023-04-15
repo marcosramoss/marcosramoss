@@ -29,7 +29,7 @@
 ## Github Analytics
 
 <p>
-  <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=marcosramoss&hide_progress=true&layout=compact)](https://github.com/anuraghazra/github-readme-stats)'
+  <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=marcosramoss&hide_progress=true&layout=compact&theme=darcula&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)'
 </p>
 
 
