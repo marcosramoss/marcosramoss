@@ -1,6 +1,6 @@
 <img align="right" height="590" src="https://raw.githubusercontent.com/gist/marcosramoss/15ba3cc20a5b000ab5ac249b9412c70f/raw/235515c5a013556b951d12a9352749f008dfb8e1/githubcard.svg"/>
 
-<h1 align="left">Olá, eu sou Marcos Ramos</h1>
+<h1 align="left">Olá, eu sou Marcos</h1>
 
 <p align='left'> <img src='https://komarev.com/ghpvc/?username=marcosramoss&color=orange' alt='Profile views' /></p>
 
