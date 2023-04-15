@@ -1,20 +1,20 @@
-<img align="right" height="590" src="https://raw.githubusercontent.com/gist/marcosramoss/15ba3cc20a5b000ab5ac249b9412c70f/raw/235515c5a013556b951d12a9352749f008dfb8e1/githubcard.svg"/>
+<img align="right" height="590" src="https://raw.githubusercontent.com/gist/marcosramoss/31fb4234d6ac84c81595501bb084d00c/raw/1f2c4dfbe74d06b14bff4c3e7baca57a0f4f3b99/github-card.svg"/>
 
-<h1 align="left">Olá, Eu sou o Marcos</h1>
+<h1 align="left">Olá, Eu sou o Marcos.</h1>
 
 <p align='left'> <img src='https://komarev.com/ghpvc/?username=marcosramoss&color=orange' alt='Profile views' /></p>
 
-- Desenvolvedor Web Pleno, Freelancer e apaixonado por conhecimento.
+- Desenvolvedor Web Pleno, Freelancer e apaixonado por conhecimento e tecnologia.
 
 - Atualmente trabalhando como freelancer.
 
 - Minhas tecnologias favoritas são HTML, CSS, JavaScript, Dart e Flutter.
 
-- Veja meus trabalhos em [Meu portfolio](https://marcosramoss.dev/)
+- Veja meus trabalhos em [meu portfolio.](https://marcosramoss.dev/)
 
 
 
-## Tech Stack
+## Tecnologias que eu uso no momento.
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3&logoColor=1572B6)&nbsp;
