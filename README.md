@@ -20,8 +20,7 @@
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3&logoColor=1572B6)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
 ![React](https://img.shields.io/badge/React-05122A?style=flat&logo=react)&nbsp;
-![Dart](https://img.shields.io/badge/Dart-05122A?style=flat&logo=dart&logoColor=007ACC)&nbsp;
-![Flutter](https://img.shields.io/badge/Flutter-05122A?style=flat&logo=flutter&logoColor=007ACC)&nbsp;
+![Next](https://img.shields.io/badge/Next-05122A?style=flat&logo=react)&nbsp;
 ![Figma](https://img.shields.io/badge/Figma-05122A?style=flat&logo=figma)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 
